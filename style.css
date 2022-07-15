@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("./images/cubes.png");
+}
+
+input,
+label {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+#button {
+    background-color: #116530;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+h1 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#task {
+    margin: 0 25px 0 15px;
+    padding: 10px;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 25px;
+    width: 60%;
+}
+
+table {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #ADCF9F;
+}
+
+.editButton {
+    background-color: #0F2C67;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.deleteButton {
+    background-color: #CD1818;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+}
